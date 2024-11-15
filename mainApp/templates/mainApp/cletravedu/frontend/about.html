@@ -1,0 +1,274 @@
+{% extends 'mainApp/cletravedu/frontend/base/app.html' %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+{% load static %}
+
+<!-- About Section -->
+<section id="service-details" class="service-details section">
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="{% url 'cletravedu.home' %}">Home</a></li>/
+            <li class="current">
+              <a href="{% url 'cletravedu.about' %}">About Us</a>
+            </li>
+          </ol>
+        </nav>
+        <h1>About us</h1>
+      </div>
+    </div><!-- End Page Title -->
+
+    <div class="container">
+
+      <div class="row gy-5">
+
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="service-box">
+            
+            <!-- <div class="services-list"> -->
+              <h4 style="text-align: center;">Become a partner</h4>
+              <p style="margin-bottom: 2em;text-align: center;">
+                Be part of a mission to shape the future of digital education.
+              </p>
+              <!-- <a href="" class="btn-get-started" 
+                 style="background-color: crimson; color: #fff; 
+                        padding: .9em 1.5em; border-radius: 10px;text-align: center;margin-left: 8em;">
+                Join Us
+              </a> -->
+            <!-- </div> -->
+          </div><!-- End Services List -->
+
+          <!-- <div class="service-box">
+            <h4>Download Catalog</h4>
+            <div class="download-catalog">
+              <a href="#"><i class="bi bi-filetype-pdf"></i><span>Catalog PDF</span></a>
+              <a href="#"><i class="bi bi-file-earmark-word"></i><span>Catalog DOC</span></a>
+            </div>
+          </div> -->
+          <!-- End Services List -->
+
+          <div class="help-box d-flex flex-column justify-content-center align-items-center">
+            <i class="bi bi-headset help-icon"></i>
+            <h4>Have a Question?</h4>
+            <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+234 906-306-2559</span></p>
+            <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="mailto:c.ihesie45nl@gmail.com">c.ihesie45nl@gmail.com</a></p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+          <img src="{% static 'cletravedu/assets/img/services.jpg' %}" alt="" class="img-fluid services-img">
+          <h3>
+            Cletrav Education Partnership Program Overview
+          </h3>
+          <p>
+            Cletrav Education Co., Ltd. is excited to extend an invitation to institutions, universities, 
+            tech companies, and educational organizations worldwide to join forces in our International 
+            Student Mobility Programs (ISMPs) and International Software Engineering Program. 
+            Together, we can empower students with the skills, global exposure, and real-world 
+            experience needed to thrive in today's competitive digital economy.
+          </p>
+          <p>
+            Our Partnership Program is designed to create mutually beneficial collaborations that enrich 
+            the educational journey of young talents and open up diverse opportunities for partner 
+            organizations. Here's how your institution or organization can benefit from partnering with us.
+          </p>
+          <h5>Why Partner with Cletrav Education?</h5>
+          <ul>
+            <li>
+              <span>
+                Global Talent Development:
+              </span>
+                <li><i class="bi bi-check-circle"></i>
+                  Contribute to shaping the next generation of tech professionals equipped with global knowledge, 
+                  practical skills, and cross-cultural competence.
+                </li>
+                <li><i class="bi bi-check-circle"></i>
+                  Your organization can play an integral role in training and developing skilled graduates 
+                  who are well-prepared for international markets.
+                </li><br>
+            </li>
+
+            <li>
+              <span>
+                Access to High-Potential Students:
+              </span>
+                <li><i class="bi bi-check-circle"></i> 
+                  Our students go through a rigorous, hands-on, and industry-focused curriculum. 
+                  By partnering with us, your organization gains access to a pool of well-prepared, 
+                  motivated, and talented individuals for internships, training, and employment opportunities.
+                </li><br>
+            </li>
+
+            <li>
+              <span>
+                Shared Brand Value:
+              </span>
+                <li><i class="bi bi-check-circle"></i> 
+                  Aligning with Cletrav Education positions your institution or organization as an advocate 
+                  for innovation, education, and international collaboration, which can elevate your brand in 
+                  the educational and tech communities.
+                </li><br>
+            </li>
+          </ul>
+
+          <h5>Program Structure and Benefits for Partners</h5>
+
+          <ol>
+            <li>
+              <span>
+                Academic Partnerships with Universities and Institutions:
+              </span>
+              <ul>
+                <li><i class="bi bi-check-circle"></i>
+                  Objective: 
+                  Enable seamless academic transition for students studying in Nigeria, and Vietnam.
+                </li>
+                <li><i class="bi bi-check-circle"></i>
+                  Role: 
+                  Host students during their degree progression, allowing them to complete semesters and gain 
+                  academic credits towards their B.Sc. in Information Technology or Data Science.
+                </li>
+                <li><i class="bi bi-check-circle"></i>
+                  Benefits: 
+                  Gain enrollment from international students, foster cultural diversity on campus, and expand 
+                  your institution's global reach.
+                </li><br>
+              </ul>
+            </li>
+
+            <li>
+              <span>
+                Industry Partnerships with Tech Companies and Organizations:
+              </span>
+              <ul>
+                <li><i class="bi bi-check-circle"></i>
+                  Objective: 
+                  Offer hands-on internships, mentorship, and job placements to students in our programs, 
+                  providing them with real-world experience.
+                </li>
+                <li><i class="bi bi-check-circle"></i>
+                  Role: 
+                  Host our students for internships or job placements, participate in curriculum input to 
+                  ensure skill relevance, and offer guest lectures or workshops.
+                </li>
+                <li><i class="bi bi-check-circle"></i>
+                  Benefits: 
+                  Gain access to a pipeline of tech-ready talent, enhance corporate social responsibility (CSR) 
+                  efforts, and influence the practical skills taught to future tech professionals.
+                </li><br>
+              </ul>
+            </li>
+
+            <li>
+              <span>
+                Internship and Employment Partnerships:
+              </span>
+              <ul>
+                <li><i class="bi bi-check-circle"></i>
+                  Objective: 
+                  Provide students with a bridge to employment by offering work placements that are an 
+                  essential part of their academic and practical training.
+                </li>
+                <li><i class="bi bi-check-circle"></i>
+                  Role: 
+                  Create internship programs that integrate with our curriculum, helping students apply their 
+                  knowledge in real-world contexts.
+                </li>
+                <li><i class="bi bi-check-circle"></i>
+                  Benefits: 
+                  Tap into a diverse group of students ready for entry-level roles, shape the talent pipeline 
+                  to meet your industry needs, and build a direct pathway for recruiting skilled graduates.
+                </li><br>
+              </ul>
+            </li>
+
+            <li>
+              <span>
+                Technology and Resource Partnerships:
+              </span>
+              <ul>
+                <li><i class="bi bi-check-circle"></i>
+                  Objective: 
+                  Support our programs with access to tech tools, educational resources, and industry insights 
+                  that enrich our students' learning experience.
+                </li>
+                <li><i class="bi bi-check-circle"></i>
+                  Role: 
+                  Provide access to software tools, platforms, digital resources, or funding for 
+                  educational initiatives.
+                </li>
+                <li><i class="bi bi-check-circle"></i>
+                  Benefits: 
+                  Promote your products and tools within an educational setting, and support tech education 
+                  through active engagement with our students and staff.
+                </li><br>
+              </ul>
+            </li>
+          </ol>
+
+          <h5>Cletrav's Commitments to Partners</h5>
+
+          <ol>
+            <li>
+              <span>
+                Tailored Collaboration Plans:
+              </span>
+              <ul>
+                <li><i class="bi bi-check-circle"></i>
+                  We design partnership structures that align with your organization's goals, ensuring that 
+                  your involvement with Cletrav Education is impactful and mutually beneficial.
+                </li>
+              </ul>
+            </li>
+          </ol>
+
+          <p>
+            Becoming a Cletrav Education partner allows your organization to make a lasting impact on 
+            international education and tech talent development. Together, we can create a world where 
+            education is accessible, relevant, and transformative.
+          </p>
+
+          <!-- Section Title -->
+          <div class="container section-title" data-aos="fade-up" style="margin-top: 5em; margin-bottom: 4em;">
+            <h3>Become a partner</h3>
+            <p style="margin-bottom: 2em;">
+              Join Cletrav's Partnership Program Today.
+            </p>
+            <!-- <a href="" class="btn-get-started" 
+              style="background-color: crimson; color: #fff; padding: .9em 1.5em; border-radius: 10px;">
+              Join Us
+            </a> -->
+          </div><!-- End Section Title -->
+
+
+          <h3>
+            About Cletrav Education
+          </h3>
+
+          <p>
+            Cletrav Education Co., is a pioneering international education technology company focused on 
+            equipping young talents with industry-ready tech skills through our International Students 
+            Mobility Programs (ISMPs). Headquartered in Abuja FCT, Nigeria, we provide a unique pathway 
+            for students to start their further education locally and complete their degree abroad, 
+            earning a B.Sc. in either Information Technology or Data Science.
+          </p>
+          <p>
+            Our programs emphasize hands-on learning, small class sizes, and real-world industry 
+            experience, empowering graduates with global skills and career opportunities in the 
+            digital economy. 
+            At Cletrav, we're dedicated to transforming education and bridging gaps in global tech 
+            talent.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section><!-- /About Section -->
+{% endblock %}

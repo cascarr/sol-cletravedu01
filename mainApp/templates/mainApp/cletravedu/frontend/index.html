@@ -1,0 +1,692 @@
+{% extends 'mainApp/cletravedu/frontend/base/app.html' %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+{% load static %}
+<!-- Hero Section -->
+<section id="hero" class="hero section">
+
+    <img src="{% static 'cletravedu/assets/img/hero-bg.jpg' %}" alt="" data-aos="fade-in">
+    
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 data-aos="fade-up" data-aos-delay="100">
+            Cletrav International Student Mobility Programs (ISMPs)
+         </h2>
+          <p data-aos="fade-up" data-aos-delay="200">
+            <!-- We are an innovative 1-2-3 joint degree education technology startup transforming the way we 
+            further education.<br/> -->
+            All our programs lead to either a B.sc in Information Technology or B.sc in Data Science, abroad.
+            Start in Nigeria, continue and finish in either America, Australia, or England.
+            
+         </p>
+         <p class=""></p>
+          <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSePprm1uc-xU2YfHaK6XlrMyxgGDD6a4HGyxbHb_lf_d5AShQ/viewform" target="_blank" class="btn-get-started">Apply</a>
+            <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+</section><!-- /Hero Section -->
+
+<!-- Partners Section -->
+<section id="clients" class="clients section">
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="swiper init-swiper">
+        <script type="application/json" class="swiper-config">
+          {
+            "loop": true,
+            "speed": 600,
+            "autoplay": {
+              "delay": 5000
+            },
+            "slidesPerView": "auto",
+            "pagination": {
+              "el": ".swiper-pagination",
+              "type": "bullets",
+              "clickable": true
+            },
+            "breakpoints": {
+              "320": {
+                "slidesPerView": 2,
+                "spaceBetween": 40
+              },
+              "480": {
+                "slidesPerView": 3,
+                "spaceBetween": 60
+              },
+              "640": {
+                "slidesPerView": 4,
+                "spaceBetween": 80
+              },
+              "992": {
+                "slidesPerView": 6,
+                "spaceBetween": 120
+              }
+            }
+          }
+        </script>
+        
+        <div class="swiper-wrapper align-items-center">
+          <div class="swiper-slide"><img src="{% static 'cletravedu/assets/img/partners/client-1.png' %}" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="{% static 'cletravedu/assets/img/partners/client-2.png' %}" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="{% static 'cletravedu/assets/img/partners/client-3.png' %}" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="{% static 'cletravedu/assets/img/partners/client-4.png' %}" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="{% static 'cletravedu/assets/img/partners/client-5.png' %}" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="{% static 'cletravedu/assets/img/partners/client-1.png' %}" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="{% static 'cletravedu/assets/img/partners/client-2.png' %}" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="{% static 'cletravedu/assets/img/partners/client-3.png' %}" class="img-fluid" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+
+</section><!-- /Partners Section -->
+
+<!-- Study Journey Section -->
+<section id="about" class="about section section-bg dark-background">
+
+  <div class="container position-relative">
+
+    <div class="row gy-5">
+
+      <div class="content col-xl-5 d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
+        <h3>The Study Journey with Cletrav ISMPs</h3>
+        <p>
+          An Innovative 3-Years Joint Degree Program transforming the way we 
+          further education.
+        </p>
+        <p>
+          We provide the most cost-effective environments, high-tech quality programs 
+          to further education, to prepare and build you into becoming a highly-sort-after 
+          tech professional & expatriate.
+        </p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSePprm1uc-xU2YfHaK6XlrMyxgGDD6a4HGyxbHb_lf_d5AShQ/viewform" class="about-btn align-self-center align-self-xl-start"><span>Apply</span> <i class="bi bi-chevron-right"></i></a>
+      </div>
+
+      <div class="col-xl-7" data-aos="fade-up" data-aos-delay="200">
+        <div class="row gy-4">
+
+          <div class="col-md-6 icon-box position-relative">
+            <i class="bi bi-briefcase"></i>
+            <!-- <a href="" class="stretched-link"></a> -->
+            <h4>Foundation semester study in Nigeria</h4>
+            <p>
+              Start, study 01 semester year 1 in Nigeria.This is an intensive hands-on-practical 
+              learning experience building you on all industry best-practices in software 
+              development. You will cultivate working skills to meet the practical demands of the 
+              industries in our host nations. 
+            </p>
+          </div><!-- Icon-Box -->
+
+          <div class="col-md-6 icon-box position-relative">
+            <i class="bi bi-gem"></i>
+            <!-- <a href="" class="stretched-link"></a> -->
+            <h4>Continue 2nd Semester in Vietnam</h4>
+            <p>
+              Transfer to international partner universities in Vietnam to continue from 2nd semester 
+              year 1 to year 2, spending about 18 months. At this stage, students will enhance on the 
+              skills acquired from the 1st semester while in Nigeria, through a 3-months internship. 
+              Successfully completing the internship gets you working and earning while still studying.  
+            </p>
+          </div><!-- Icon-Box -->
+
+          <div class="col-md-6 icon-box position-relative">
+            <i class="bi bi-broadcast"></i>
+            <!-- <a href="" class="stretched-link"></a> -->
+            <h4>Final year in America</h4>
+            <p>
+              Learn in-depth knowledge according to the original programs of international university 
+              partners. On-the-job training with companies. Accumulate working experience within a 
+              bigger economic environment. Finish and Receive a prestigious Bachelor's degree in Information Technology
+              upon graduation.
+            </p>
+          </div><!-- Icon-Box -->
+
+          <div class="col-md-6 icon-box position-relative">
+            <i class="bi bi-easel"></i>
+            <!-- <a href="" class="stretched-link"></a> -->
+            <h4>Final year in Australia</h4>
+            <p>
+              Learn in-depth knowledge according to the original programs of international university 
+              partners. On-the-job training with companies. Accumulate working experience within a 
+              bigger economic environment. Finish and Receive a prestigious Bachelor's degree in Data Science
+              upon graduation.
+            </p>
+          </div><!-- Icon-Box -->
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section><!-- /Study Journey Section -->
+
+<!-- Tabs Section -->
+<section id="tabs" class="tabs section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Cletrav ISMPs Programmes</h2>
+    <p>
+      To ensure the best training quality, students need to ensure the following conditions 
+      to enter any of Cletrav ISMPs' programme.
+    </p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
+      <li class="nav-item col-3">
+        <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tabs-tab-1">
+          <i class="bi bi-binoculars"></i>
+          <h4 class="d-none d-lg-block">Software Engineering Path</h4>
+        </a>
+      </li>
+      <li class="nav-item col-3">
+        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-2">
+          <i class="bi bi-box-seam"></i>
+          <h4 class="d-none d-lg-block">Data Engineering Path</h4>
+        </a>
+      </li>
+      <li class="nav-item col-3">
+        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-3">
+          <i class="bi bi-brightness-high"></i>
+          <h4 class="d-none d-lg-block">Digital Business Path</h4>
+        </a>
+      </li>
+      <li class="nav-item col-3">
+        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-4">
+          <i class="bi bi-command"></i>
+          <h4 class="d-none d-lg-block">Mini-MBA Path</h4>
+        </a>
+      </li>
+    </ul><!-- End Tab Nav -->
+
+    <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+      <div class="tab-pane fade active show" id="tabs-tab-1">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+            <h3>Software Engineering</h3>
+            <p class="fst-italic">
+              Whether you plan to start your own business, seek employement in a specific field,
+              or just advancing your cereer, this programme is designed to give you the conceptual
+              and practical expertise needed to achieve your goals. 
+            </p>
+
+            <h4>Admission Requirements</h4>
+            <ul>
+              <li><i class="bi bi-check2-all"></i>
+                <spab>
+                  Secondary  education (original WAEC transcript in good standing & certificate and nortarized copy).
+                </spab>
+              </li>
+              <li><i class="bi bi-check2-all"></i> 
+                <span>
+                  International travelling passport
+                </span>.
+              </li>
+              <li><i class="bi bi-check2-all"></i> 
+                <span>
+                  4 photos (40 x 60 mm).
+                </span>
+              </li>
+              <li><i class="bi bi-check2-all"></i> 
+                <span>
+                  Application form.
+                </span>
+              </li>
+              <li><i class="bi bi-check2-all"></i> 
+                <span>
+                  Registration fee.
+                </span>
+              </li>
+            </ul>
+
+            <h4>Degree Pursuit:</h4>
+            <p>
+              <b>
+                Bachelor of Science in Information Technology
+              </b>
+            </p>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="{% static 'cletravedu/assets/img/working-1.jpg' %}" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div><!-- End Tab Content Item -->
+
+      <div class="tab-pane fade" id="tabs-tab-2">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+            <!-- <h3>Data Engineering</h3>
+            <p class="fst-italic">
+              Whether you plan to start your own business, seek employement in a specific field,
+              or just advancing your cereer, this programme is designed to give you the conceptual
+              and practical expertise needed to achieve your goals. 
+            </p> -->
+
+            <h4>Coming Soon....</h4>
+
+            <!-- <h4>Admission Requirements</h4>
+            <ul>
+              <li><i class="bi bi-check2-all"></i>
+                <spab>
+                  Secondary  education (original WAEC transcript in good standing & certificate and nortarized copy).
+                </spab>
+              </li>
+              <li><i class="bi bi-check2-all"></i> 
+                <span>
+                  International travelling passport
+                </span>.
+              </li>
+              <li><i class="bi bi-check2-all"></i> 
+                <span>
+                  4 photos (40 x 60 mm).
+                </span>
+              </li>
+              <li><i class="bi bi-check2-all"></i> 
+                <span>
+                  Application form.
+                </span>
+              </li>
+              <li><i class="bi bi-check2-all"></i> 
+                <span>
+                  Registration fee.
+                </span>
+              </li>
+            </ul> -->
+
+            <!-- <h4>Degree Pursuit:</h4>
+            <p>
+              <b>
+                Bachelor of Science in Information Technology
+              </b>
+            </p> -->
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="{% static 'cletravedu/assets/img/working-2.jpg' %}" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div><!-- End Tab Content Item -->
+
+      <div class="tab-pane fade" id="tabs-tab-3">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+            <!-- <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3> -->
+            <h4>Coming Soon....</h4>
+            <!-- <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum
+            </p> -->
+            <!-- <ul>
+              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
+            </ul> -->
+            <!-- <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p> -->
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="{% static 'cletravedu/assets/img/working-3.jpg' %}" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div><!-- End Tab Content Item -->
+
+      <div class="tab-pane fade" id="tabs-tab-4">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+            <!-- <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3> -->
+            <h4>Coming Soon....</h4>
+            <!-- <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum
+            </p>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p> -->
+            <!-- <ul>
+              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+            </ul> -->
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="{% static 'cletravedu/assets/img/working-4.jpg' %}" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div><!-- End Tab Content Item -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Tabs Section -->
+
+<!-- Benefits Section -->
+<section id="services" class="services section section-bg dark-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Benefits of the Cletrav ISMPs</h2>
+    <p>
+      An innovative approach to further education, tranforming traditional education, by bridging the gap 
+      between academic learning and real-world application.
+    </p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item d-flex position-relative h-100">
+          <i class="bi bi-briefcase icon flex-shrink-0"></i>
+          <div>
+            <!-- <a href="" class="stretched-link"></a> -->
+            <h4 class="title">Huge Cost-effective</h4>
+            <p class="description">
+              With internships aligned with coursework in our host nation, students enhance on their practical 
+              experience acquired from semester 01 in Nigeria, this improves their job-readiness and 
+              career trajectory integrating them professionally while studying. 
+              This is a huge cost-reduction and funding for parents and sponsors.
+            </p>
+          </div>
+        </div>
+      </div><!-- End Benefits Item -->
+
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item d-flex position-relative h-100">
+          <i class="bi bi-card-checklist icon flex-shrink-0"></i>
+          <div>
+            <!-- <a href="" class="stretched-link"></a> -->
+            <h4 class="title">Small Class Size</h4>
+            <p class="description">
+              Cletrav's small class size approach ensures students receive an education that is both 
+              comprehensive and tailored to their unique needs, preparing them to excel academically 
+              and professionally on a global scale.
+            </p>
+          </div>
+        </div>
+      </div><!-- End Benefits Item -->
+
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item d-flex position-relative h-100">
+          <i class="bi bi-bar-chart icon flex-shrink-0"></i>
+          <div>
+            <!-- <a href="" class="stretched-link"></a> -->
+            <h4 class="title">Hands-on-practical Learning</h4>
+            <p class="description">
+              Cletrav ISMPs are structured around industry-relevant tasks and scenarios, allowing students to work on 
+              projects that simulate actual professional environments.<br/>Students become proficient in tools and technologies
+              currently used by top companies, giving them a competitive edge in the job market.
+            </p>
+          </div>
+        </div>
+      </div><!-- End Benefits Item -->
+
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item d-flex position-relative h-100">
+          <i class="bi bi-binoculars icon flex-shrink-0"></i>
+          <div>
+            <!-- <a href="" class="stretched-link"></a> -->
+            <h4 class="title">Express Immigration</h4>
+            <p class="description">
+              Cletrav handles much of the paperwork, ensuring students have the right documentation without 
+              the stress of navigating complex immigration systems alone.<br/>
+              Academic records and credentials are seamlessly transferred across borders within the program,
+              eliminating redundancies in documentation and expediting approval processes.
+            </p>
+          </div>
+        </div>
+      </div><!-- End Benefits Item -->
+
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-item d-flex position-relative h-100">
+          <i class="bi bi-brightness-high icon flex-shrink-0"></i>
+          <div>
+            <!-- <a href="" class="stretched-link"></a> -->
+            <h4 class="title">Internship / Paid Tech-work Experience</h4>
+            <p class="description">
+              Cultivate working skills to meet the practical needs of businesses. With practical experience in their 1st semester,
+              students are ready for internships in the 2nd semester, making them more attractive to employers seeking skilled tech professionals and expatriate. 
+              
+            </p>
+          </div>
+        </div>
+      </div><!-- End Benefits Item -->
+
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-item d-flex position-relative h-100">
+          <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+          <div>
+            <!-- <a href="" class="stretched-link"></a> -->
+            <h4 class="title">Awards / Graduation at Prestigious Universities</h4>
+            <p class="description">
+               Graduates gain international credentials from prestigious universities with high international rankings, exposing them 
+               to professional environments in multiple countries, making it easier to transition into the international workforce upon 
+               program completion.
+            </p>
+          </div>
+        </div>
+      </div><!-- End Benefits Item -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Benefits Section -->
+
+<!-- Faq Section -->
+<section id="faq" class="faq section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Frequently Asked Questions</h2>
+    <p>
+      We hope these FAQs provide potential students with a clear understanding of the benefits, logistics, and application process for Cletrav ISMPs.
+    </p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row justify-content-center">
+
+      <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="faq-container">
+
+          <div class="faq-item faq-active">
+            <h3>
+              What is Cletrav's International Student Mobility Program (ISMP)?
+            </h3>
+            <div class="faq-content">
+              <p>
+                Cletrav's ISMP is an educational pathway that allows students to study across multiple countries. 
+                The program combines academic learning with practical experience, starting with foundational studies 
+                in students' home countries and progressing to advanced coursework and internships abroad. 
+                The ultimate goal is to earn a globally recognized degree while gaining valuable international experience.
+
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <div class="faq-item">
+            <h3>
+              Who is eligible to join Cletrav ISMPs?
+            </h3>
+            <div class="faq-content">
+              <p>
+                Cletrav ISMPs are open to high school graduates and early-career professionals interested 
+                in advancing their skills and gaining an international qualification. Each program may 
+                have specific requirements, so please refer to the program details or contact our admissions 
+                team.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <div class="faq-item">
+            <h3>
+              What countries are included in Cletrav ISMPs?
+            </h3>
+            <div class="faq-content">
+              <p>
+                Cletrav ISMPs offer a multi-country study pathway that starts in the student's home country 
+                with practical coursework, progresses to an academic + internships  semester in Vietnam, 
+                and concludes with final year studies in either the United States, Australia, Canada, England, or the Switzerland. 
+                This pathway ensures students gain diverse cultural and professional experiences.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <div class="faq-item">
+            <h3>
+              What degree or certification will I receive upon completion?
+            </h3>
+            <div class="faq-content">
+              <p>
+                Upon successful completion of the program, students will receive either a Bachelor's degree 
+                in Information Technology from a U.S.-based partner university or a Bachelor's degree in 
+                Data Science from an Australia.-based partner university, with recognition in multiple 
+                countries. Additional certifications or credentials may be awarded based on the specific 
+                course modules completed during the program.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <div class="faq-item">
+            <h3>
+              How does Cletrav ISMP support hands-on learning?
+            </h3>
+            <div class="faq-content">
+              <p>
+                Cletrav ISMP emphasizes hands-on, practical learning through internships, project-based 
+                coursework, and access to industry-standard tools and technologies. From the first semester, 
+                students apply their skills in real-world settings, preparing them for competitive global 
+                job markets.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <div class="faq-item">
+            <h3>
+              How much does the program cost, and are there financial aid options?
+            </h3>
+            <div class="faq-content">
+              <p>
+                The cost varies by program and country. Cletrav offers flexible payment plans, 
+                facilitates access to internship opportunities to reduce the financial burden on students. 
+                Contact our admissions team for specific program costs and details on available financial aid.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <div class="faq-item">
+            <h3>
+              Will I receive help with visas and immigration?
+            </h3>
+            <div class="faq-content">
+              <p>
+                Yes, Cletrav provides visa assistance and guidance throughout the program. Our team supports 
+                students with visa applications, residency options, and immigration paperwork to facilitate 
+                a smooth transition between countries.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <div class="faq-item">
+            <h3>Can I stay in the U.S. after completing the program?</h3>
+            <div class="faq-content">
+              <p>
+                Yes, many students have the option to pursue residency or work permits upon program 
+                completion, depending on individual eligibility and local regulations. Cletrav offers 
+                guidance on post-graduation options to help students explore career opportunities in 
+                the U.S.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <div class="faq-item">
+            <h3>What if I decide not to continue to the next stage of the program?</h3>
+            <div class="faq-content">
+              <p>
+                Students can choose to exit the program at certain stages and still receive credits for 
+                completed coursework. However, we recommend consulting with a Course Manager to understand 
+                how this may impact career progression or degree completion.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <div class="faq-item">
+            <h3>How do I apply to Cletrav ISMPs?</h3>
+            <div class="faq-content">
+              <p>
+                You can apply through our website by filling out an online application form. After 
+                submitting your application, you'll be contacted by our admissions team for an interview 
+                to discuss your educational background, career goals, and program suitability.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+
+          <div class="faq-item">
+            <h3>Who should I contact for more information?</h3>
+            <div class="faq-content">
+              <p>
+                For more information, please reach out to our admissions or support team via email or phone, 
+                as listed on our website. We're here to answer any questions you may have and help you 
+                understand how Cletrav ISMPs can support your educational and career aspirations.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div><!-- End Faq item-->
+          
+
+        </div>
+
+      </div><!-- End Faq Column-->
+
+    </div>
+
+  </div>
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up" style="margin-top: 2em;">
+    <h3>Become a student</h3>
+    <p style="margin-bottom: 2em;">
+      Join our community and start your future today.
+    </p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSePprm1uc-xU2YfHaK6XlrMyxgGDD6a4HGyxbHb_lf_d5AShQ/viewform" 
+       class="btn-get-started" 
+       style="background-color: crimson; color: #fff; padding: .9em 1.5em; border-radius: 10px;">
+       Apply
+    </a>
+  </div><!-- End Section Title -->
+
+</section><!-- /Faq Section -->
+{% endblock %}
