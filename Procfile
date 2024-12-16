@@ -1,2 +1,1 @@
-web gunicorn sol-cletravedu01.wsgi
-
+gunicorn sol-cletravedu01.wsgi --log-file -
